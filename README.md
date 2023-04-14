@@ -34,9 +34,22 @@ if __name__ == "__main__":
     print("El valor final del préstamo es: ", valor_final)
 ```
 
-
-
 2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
+1.1
+```python
+
+```
+1.2
+```python
+
+```
+1.3
+```python
+
+```
+
+
+
 3. Escriba una función recursiva para calcular la operación de la potencia.
 4. Utilice la siguiente plantilla de code para contar el tiempo:
 ```python
