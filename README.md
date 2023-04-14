@@ -36,9 +36,9 @@ if __name__ == "__main__":
 
 
 
-3. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
-4. Escriba una función recursiva para calcular la operación de la potencia.
-5. Utilice la siguiente plantilla de code para contar el tiempo:
+2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
+3. Escriba una función recursiva para calcular la operación de la potencia.
+4. Utilice la siguiente plantilla de code para contar el tiempo:
 ```python
 import time
 start_time = time.time()
