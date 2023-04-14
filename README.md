@@ -1,8 +1,44 @@
 # RETO_9
 1. De los retos anteriores seleciones 3 funciones y escribalas en forma de lambdas.
-2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
-3. Escriba una función recursiva para calcular la operación de la potencia.
-4. Utilice la siguiente plantilla de code para contar el tiempo:
+
+1,1 
+
+```python
+if __name__ == "__main__":
+    N = float(input("N° de gallinas? "))#pregunta cuantos de cada uno
+    M = float(input("N° de gallos? "))
+    K = float(input("N° de pollitos? "))
+    suma = (lambda N,M,K:(N*6)+(M*7)+(K*1))(N,M,K) #multiplica y suma todo
+    print("La cantidad de carne de aves en kilos es ",suma) #imprime el resultado
+```
+1,2
+```python
+if __name__ == "__main__":
+    P = float(input("N° de Panes? ")) #pregunta cuantos de cada uno
+    M = float(input("N° de Bolsas de leche? "))
+    H = float(input("N° de Huevos ? "))
+    B = float(input("Valor billete "))
+    suma = (lambda P,M,H,B: B-((P*300)+(M*3300)+(H*350)))(P,M,H,B) #multiplica y suma y luego resta el billete
+    if suma>0: #si suma es mayor a cero
+        print("Las vueltas son ",suma)
+    else :
+        print("Quedaste debiendo ",suma)
+```
+1,3
+```python
+if __name__ == "__main__":
+    a = float(input("Prestamo inicial "))
+    b = float(input("Tasa de interes "))
+    c = float(input("Tiempo en meses "))
+    valor_final = (lambda a,b,c: a*((1 + b/12)**c))(a,b,c)
+    print("El valor final del préstamo es: ", valor_final)
+```
+
+
+
+3. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
+4. Escriba una función recursiva para calcular la operación de la potencia.
+5. Utilice la siguiente plantilla de code para contar el tiempo:
 ```python
 import time
 start_time = time.time()
