@@ -1,7 +1,7 @@
 # RETO_9
 1. De los retos anteriores seleciones 3 funciones y escribalas en forma de lambdas.
 
-1,1 
+1.1 
 
 ```python
 if __name__ == "__main__":
@@ -11,7 +11,7 @@ if __name__ == "__main__":
     suma = (lambda N,M,K:(N*6)+(M*7)+(K*1))(N,M,K) #multiplica y suma todo
     print("La cantidad de carne de aves en kilos es ",suma) #imprime el resultado
 ```
-1,2
+1.2
 ```python
 if __name__ == "__main__":
     P = float(input("N° de Panes? ")) #pregunta cuantos de cada uno
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     else :
         print("Quedaste debiendo ",suma)
 ```
-1,3
+1.3
 ```python
 if __name__ == "__main__":
     a = float(input("Prestamo inicial "))
