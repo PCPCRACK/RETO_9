@@ -35,7 +35,8 @@ if __name__ == "__main__":
 ```
 
 2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
-1.1
+
+2.1
 ```python
 #una función que calcule la cantidad de carne de aves en kilos 
 
@@ -51,11 +52,11 @@ if __name__ == "__main__":
     K = float(input("N° de pollitos? "))
     print("La cantidad de carne de aves en kilos es ",(suma(N,M,K)))
 ```
-1.2
+2.2
 ```python
 
 ```
-1.3
+2.3
 ```python
 
 ```
