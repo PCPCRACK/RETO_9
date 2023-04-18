@@ -121,7 +121,28 @@ end_time = time.time()
 timer = end_time - start_time
 print(timer)
 ```
+RESULTADO:
+```python
+import time
+def PotenciaRecursivo(n : int,p : int)-> int:
+  #print(n,p)
+  if p == 0: #si p es igual a 0 retorna 1
+    return 1
+  else:
+    # Condicion de la funcion recursiva
+    return n*PotenciaRecursivo(n,p-1) 
 
+
+if __name__ == "__main__":
+    start_time = time.time()
+    num = int(input("Ingrese numero: ")) #pide valores enteros
+    p = int(input("potencia: "))
+    PotenciaDeNum = PotenciaRecursivo(num,p) #llama la funcion
+    print(str(num) + " elevado a " + str(p) + " es "+ str(PotenciaDeNum)) #imprime
+    end_time = time.time()
+    timer = end_time - start_time # instrucciones sobre las cuales se quiere medir tiempo de ejecución
+    print(timer)
+```
 Realice pruebas para calcular fibonacci con iteración o con recursión. Determine desde que número de la serie la diferencia de tiempo se vuelve significativa.
 **Importante:** Revisar este [hilo](https://stackoverflow.com/questions/8220801/how-to-use-timeit-module).
 
