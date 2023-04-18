@@ -54,7 +54,27 @@ if __name__ == "__main__":
 ```
 2.2
 ```python
+#Una función matemática para calcular el volumen y el área superficial
+from math import sqrt #se importa de  las librerias la raiz cuadrada y pi
+from math import pi
 
+def cirVandAr(*arg):
+    V = (4/3)*pi*(arg[0])**3 
+    A = 4*pi*((arg[0])*2)**2
+    return V,A
+
+def ConoVandAr(*arg):
+    V = 1/3*(arg[1])*pi*(arg[0])**2
+    g = sqrt(((arg[0])**2)+((arg[1])**2))
+    A = pi*(arg[0])*(g+(arg[0]))
+    return V,A
+
+if __name__ == "__main__":
+    a = float(input("Radio esfera "))#se pide el radio de la esfera
+    b = float(input("Radio cono "))#se pide el radio del cono
+    c = float(input("Altura cono "))#se pide la altura del cono
+    print("El volumen en cm3 y Area de la esfera en cm2 es ",(cirVandAr(a)))
+    print("El volumen en cm3 y Area del cono en cm2 es ",(ConoVandAr(b,c)))
 ```
 2.3
 ```python
