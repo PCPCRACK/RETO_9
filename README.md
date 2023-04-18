@@ -95,10 +95,23 @@ if __name__ == "__main__":
     else :
         print("Quedaste debiendo ",suma)
 ```
-
-
-
 3. Escriba una función recursiva para calcular la operación de la potencia.
+```python
+def PotenciaRecursivo(n : int,p : int)-> int:
+  print(n,p)
+  if p == 0: #si p es igual a 0 retorna 1
+    return 1
+  else:
+    # Condicion de la funcion recursiva
+    return n*PotenciaRecursivo(n,p-1) 
+
+
+if __name__ == "__main__":
+    num = int(input("Ingrese numero: ")) #pide valores enteros
+    p = int(input("potencia: "))
+    PotenciaDeNum = PotenciaRecursivo(num,p) #llama la funcion
+    print(str(num) + " elevado a " + str(p) + " es "+ str(PotenciaDeNum)) #imprime
+```
 4. Utilice la siguiente plantilla de code para contar el tiempo:
 ```python
 import time
