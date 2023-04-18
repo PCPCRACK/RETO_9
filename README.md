@@ -27,11 +27,11 @@ if __name__ == "__main__":
 1.3
 ```python
 if __name__ == "__main__":
-    a = float(input("Prestamo inicial "))
+    a = float(input("Prestamo inicial ")) #pide valores
     b = float(input("Tasa de interes "))
     c = float(input("Tiempo en meses "))
-    valor_final = (lambda a,b,c: a*((1 + b/12)**c))(a,b,c)
-    print("El valor final del préstamo es: ", valor_final)
+    valor_final = (lambda a,b,c: a*((1 + b/12)**c))(a,b,c)  #llama una fun. anonima
+    print("El valor final del préstamo es: ", valor_final) #imprime el resultado
 ```
 
 2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
