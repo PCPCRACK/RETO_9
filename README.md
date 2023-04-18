@@ -78,7 +78,22 @@ if __name__ == "__main__":
 ```
 2.3
 ```python
+#Hacer un programa que me diga las vueltas (o lo que quedo debiendo)
 
+def suma(*arg):
+    return (arg[3])-(((arg[0])*300)+((arg[1])*3300)+((arg[2])*350)) #multiplica y suma y luego resta el billete
+    
+
+if __name__ == "__main__":
+    P = float(input("N° de Panes? ")) #pregunta cuantos de cada uno
+    M = float(input("N° de Bolsas de leche? "))
+    H = float(input("N° de Huevos ? "))
+    B = float(input("Valor billete "))
+    suma = suma(P,M,H,B) #llama la funcion
+    if suma>0: #si suma es mayor a cero
+        print("Las vueltas son ",suma)
+    else :
+        print("Quedaste debiendo ",suma)
 ```
 
 
