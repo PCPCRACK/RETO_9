@@ -151,3 +151,5 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
  [![Captura.png](https://i.postimg.cc/kG8DCZq3/Captura.png)](https://postimg.cc/p5WPYsmq)
 
 6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalon. Dejar enlace en el repo.
+
+enlace [perfil linkedin](https://www.linkedin.com/in/david-andres-rojas-villarreal-0aa404273/)
